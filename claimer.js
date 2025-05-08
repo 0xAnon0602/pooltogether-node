@@ -181,6 +181,7 @@ if (newWinners === null) {
     await CollectRewards(prizeTokenPrice, ethPrice);
   }
 
+  await CollectRewards(prizeTokenPrice, ethPrice);
   console.log("Execution completed at", new Date().toLocaleTimeString());
   scheduleNextRun(); // Schedule the next execution
 }
